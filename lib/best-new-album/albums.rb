@@ -1,4 +1,4 @@
-class Albums 
+class NewAlbum::Albums 
   
   attr_accessor :album_name, :artist, :genre, :review_score, :review_date
   
