@@ -1,5 +1,9 @@
 class CLI 
   
+  def initialize()
+    puts "Best new albums as reviewed by Pitchfork."
+  end
+  
   def call 
     album_list
     menu
@@ -7,7 +11,6 @@ class CLI
   end
   
   def album_list
-    puts "Best new albums as reviewed by Pitchfork."
     
   end
   
