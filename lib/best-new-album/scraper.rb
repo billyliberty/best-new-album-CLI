@@ -8,8 +8,4 @@ class NewAlbum::Scraper
     self.get_page.css
   end
   
-  def make_albums
-  
-  end
-  
 end

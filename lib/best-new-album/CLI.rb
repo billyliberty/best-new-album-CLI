@@ -11,11 +11,11 @@ class NewAlbum::CLI
   end
   
   def album_list
-    
+    puts "Albums"
   end
   
   def menu
- 
+    puts "Would you like to read the full review?"
   end
   
 end
