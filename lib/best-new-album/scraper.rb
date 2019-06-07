@@ -1,7 +1,7 @@
 class NewAlbum::Scraper
   
   def get_page
-    index_page = Nokogiri::HTML(open("https://pitchfork.com/reviews/best/albums/"))
+    Nokogiri::HTML(open("https://pitchfork.com/reviews/best/albums/"))
   end
   
   def scrape_albums
