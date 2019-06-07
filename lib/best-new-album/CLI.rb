@@ -1,7 +1,7 @@
 class NewAlbum::CLI 
   
   def initialize()
-    puts "Best new albums as reviewed by Pitchfork."
+    puts "Welcome to the best new albums as reviewed by Pitchfork!"
   end
   
   def call 

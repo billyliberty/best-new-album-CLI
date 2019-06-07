@@ -1,6 +1,6 @@
 class NewAlbum::Albums 
   
-  attr_accessor :album_name, :artist, :genre, :review_score, :review_date
+  attr_accessor :album_name, :artist, :genre, :review_score, :review_date. :reviewer
   
   @@all = []
   
@@ -10,6 +10,7 @@ class NewAlbum::Albums
     @genre = genre
     @review_score = review_score
     @review_date = review_date
+    @reviewer = reviewer
     @@all << self
   end
   
